@@ -1,0 +1,7 @@
+ui\selenide\po\LoginPage.class
+ui\selenide\po\SearchPage.class
+ui\selenide\utils\Utils.class
+ui\selenide\controllers\UserController.class
+ui\selenide\entities\User.class
+ui\selenide\js\JavaScriptMethods.class
+ui\selenide\po\ArticlePage.class
