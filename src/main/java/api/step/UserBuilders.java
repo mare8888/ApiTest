@@ -6,8 +6,8 @@ public class UserBuilders {
 
     public UserRequest userDefaultBuilder() {
         return UserRequest.builder()
-                .userName("user12")
-                .password("12345678Qa!")
+                .userName("Alex777")
+                .password("Test123456!")
                 .build();
     }
 }
