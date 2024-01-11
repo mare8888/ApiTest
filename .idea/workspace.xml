@@ -5,77 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_7_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_core_7_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_4_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_json_4_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_xml_4_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/config/PropertyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/config/RequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/Endpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/step/UserBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/js/JavaScriptMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/po/ArticlePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/po/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/po/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/selenide/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/selenide/WikiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_21_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_32_1_2_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_32_1_3_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_15_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_33_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_37_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/builders/UserBuilders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/book/AddBookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/book/IsbnDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/book/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/book/IsnbDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/get/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/get/GetUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/driver/DriverInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/methods/BaseMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builders/LoginBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/js/JavaScriptMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/RetryAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/po/wiki/ArticlePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/po/wiki/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/po/wiki/SearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ActionsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WikiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/driver/DriverInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/methods/BaseMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builders/LoginBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/JavaScriptMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listeners/RetryAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/po/ArticlePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/po/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/po/SearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ActionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WikiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/RequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/dto/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/dto/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/endpoints/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/UserEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserBuilders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/RequestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/RequestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/Requests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/Requests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/request/UserRequest$UserRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/request/UserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/response/UserResponse$UserResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/response/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/endpoints/Endpoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserBuilders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -122,7 +85,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -252,7 +215,9 @@
       <workItem from="1703179386809" duration="4415000" />
       <workItem from="1703185538981" duration="904000" />
       <workItem from="1703222845933" duration="14000" />
-      <workItem from="1704732091056" duration="7504000" />
+      <workItem from="1704732091056" duration="8647000" />
+      <workItem from="1704901405392" duration="12000" />
+      <workItem from="1704992095417" duration="8352000" />
     </task>
     <servers />
   </component>
