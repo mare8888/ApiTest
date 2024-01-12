@@ -4,6 +4,8 @@ import api.step.BookSteps;
 import api.step.UserSteps;
 import org.testng.annotations.Test;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
 
 public class GenerateTokenTest {
 
@@ -12,7 +14,10 @@ public class GenerateTokenTest {
 
     @Test
     void generateToken() {
-        bookSteps.addBookToUser();
-        System.out.println(steps.getUser());
+//        bookSteps.addBookToUser();
+        var responseUser = steps.getUser();
+
+
+        assertThat(responseUser.getBooks().get(0).getTitle()).isEqualTo("Git Pocket Guide");
     }
 }

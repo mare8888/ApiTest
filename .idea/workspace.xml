@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/builders/UserBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/book/AddBookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/book/IsbnDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/book/BookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/book/IsnbDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/get/BookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/get/GetUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/RequestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/dto/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/dto/request/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/dto/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/dto/response/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/endpoints/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/UserEndpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserBuilders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/config/RequestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/RequestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/config/Requests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/Requests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/request/UserRequest$UserRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/request/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/response/UserResponse$UserResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/dto/response/UserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/endpoints/Endpoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserBuilders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +186,9 @@
       <workItem from="1703222845933" duration="14000" />
       <workItem from="1704732091056" duration="8647000" />
       <workItem from="1704901405392" duration="12000" />
-      <workItem from="1704992095417" duration="8352000" />
+      <workItem from="1704992095417" duration="9053000" />
+      <workItem from="1705036983869" duration="21000" />
+      <workItem from="1705043379632" duration="1727000" />
     </task>
     <servers />
   </component>
