@@ -2,9 +2,10 @@ package api.test;
 
 import api.step.BookSteps;
 import api.step.UserSteps;
+import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class GenerateTokenTest {
@@ -14,10 +15,15 @@ public class GenerateTokenTest {
 
     @Test
     void generateToken() {
-//        bookSteps.addBookToUser();
-        var responseUser = steps.getUser();
+
+     bookSteps.addBookToUser();
+     var responseUser = steps.getUser();
+        bookSteps.deleteBookToUser();
+     var responseUser1 = steps.getUser();
 
 
-        assertThat(responseUser.getBooks().get(0).getTitle()).isEqualTo("Git Pocket Guide");
+
+     Assertions.assertThat(responseUser.getBooks().get(0).getTitle()).isEqualTo("Learning JavaScript Design Patterns");
+      assertThat(responseUser1.getBooks()).isEmpty();
     }
 }

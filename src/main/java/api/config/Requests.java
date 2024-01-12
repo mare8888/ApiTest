@@ -31,4 +31,12 @@ public class Requests {
                 .when()
                 .get(endpoint);
     }
+
+    public Response delete(RequestSpecification specRequest, String endpoint) {
+        return given()
+                .spec(specRequest)
+                .when()
+                .delete(endpoint);
+    }
+
 }

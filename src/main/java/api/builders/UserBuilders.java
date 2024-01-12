@@ -6,8 +6,8 @@ public class UserBuilders {
 
     public UserDto userDefaultBuilder() {
         return UserDto.builder()
-                .userName("user13")
-                .password("12345678Qa!")
+                .userName("Alex000")
+                .password("Test123456!")
                 .build();
     }
 }
