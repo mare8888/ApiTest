@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_btf_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_equivalence_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_core_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_validator_2_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_msg_simple_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_uri_template_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_mailapi_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_schema_validator_4_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/exceptions/BookNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/AddBookJsonSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetUserJsonSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/builders/BookBuilders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/builders/BookBuilders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/Requests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/Requests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/endpoints/BookEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/endpoints/BookEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/step/BookSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/BookSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,24 +104,18 @@
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GenerateTokenTest.generateToken">
-    <configuration name="ActionsTest.getTableColumns" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GenerateTokenTest.shouldBeAddedBook">
+    <configuration name="GenerateTokenTest.deleteBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="selenium.ActionsTest" />
-      <option name="METHOD_NAME" value="getTableColumns" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActionsTest.uploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="selenium.ActionsTest" />
-      <option name="METHOD_NAME" value="uploadFile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
+      <option name="METHOD_NAME" value="deleteBook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,17 +141,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiTest.shouldBeAuthToWiki" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GenerateTokenTest.shouldBeAddedBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.*" />
+          <option name="PATTERN" value="api.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.WikiTest" />
-      <option name="METHOD_NAME" value="shouldBeAuthToWiki" />
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
+      <option name="METHOD_NAME" value="shouldBeAddedBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateTokenTest.shouldBeAddedBooks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
+      <option name="METHOD_NAME" value="shouldBeAddedBooks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GenerateTokenTest.shouldBeAddedBook" />
+        <item itemvalue="TestNG.GenerateTokenTest.deleteBook" />
+        <item itemvalue="TestNG.GenerateTokenTest.shouldBeAddedBooks" />
         <item itemvalue="TestNG.GenerateTokenTest.generateToken" />
         <item itemvalue="TestNG.WikiTest.shouldBeOpenedArticle" />
-        <item itemvalue="TestNG.WikiTest.shouldBeAuthToWiki" />
-        <item itemvalue="TestNG.ActionsTest.getTableColumns" />
-        <item itemvalue="TestNG.ActionsTest.uploadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +235,9 @@
       <workItem from="1704901405392" duration="12000" />
       <workItem from="1704992095417" duration="9053000" />
       <workItem from="1705036983869" duration="21000" />
-      <workItem from="1705043379632" duration="1727000" />
+      <workItem from="1705043379632" duration="1919000" />
+      <workItem from="1705254454406" duration="611000" />
+      <workItem from="1705336523681" duration="7059000" />
     </task>
     <servers />
   </component>
