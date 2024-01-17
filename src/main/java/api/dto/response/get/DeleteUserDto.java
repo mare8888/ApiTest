@@ -1,4 +1,4 @@
-package api.dto.response;
+package api.dto.response.get;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserDto {
+
+public class DeleteUserDto {
+    public int code;
     public String type;
     public String message;
-    public int code;
 }

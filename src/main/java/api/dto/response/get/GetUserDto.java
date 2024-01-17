@@ -13,8 +13,13 @@ import java.util.List;
 @NoArgsConstructor
 public class GetUserDto {
 
-    private String userId;
-    private String username;
-    private List<BookDto> books;
+    public long id;
+    public String username;
+    public String firstName;
+    public String lastName;
+    public String email;
+    public String password;
+    public String phone;
+    public int userStatus;
 
 }

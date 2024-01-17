@@ -12,15 +12,10 @@ public class ResponseService {
                 .build();
     }
 
-    public static ResponseSpecification create() {
+    public static ResponseSpecification empty() {
         return new ResponseSpecBuilder()
-                .expectStatusCode(HttpStatus.SC_CREATED)
+                .expectStatusCode(HttpStatus.SC_NOT_FOUND)
                 .build();
     }
 
-    public static ResponseSpecification delete() {
-        return new ResponseSpecBuilder()
-                .expectStatusCode(HttpStatus.SC_NO_CONTENT)
-                .build();
-    }
 }

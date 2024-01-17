@@ -4,7 +4,8 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 import static api.config.RequestService.request;
-import static api.utils.Utils.toJson;
+//import static api.utils.Utils.toJson;
+import static groovy.json.JsonOutput.toJson;
 import static io.restassured.RestAssured.given;
 
 public class Requests {
@@ -17,14 +18,14 @@ public class Requests {
                 .post(endpoint);
     }
 
-    public Response post(RequestSpecification specRequest, Object body, String endpoint) {
+ /*   public Response post(RequestSpecification specRequest, Object body, String endpoint) {
         return given()
                 .spec(specRequest)
                 .body(toJson(body))
                 .when()
                 .post(endpoint);
     }
-
+*/
     public Response get(RequestSpecification specRequest, String endpoint) {
         return given()
                 .spec(specRequest)

@@ -1,17 +1,12 @@
 package api.config;
 
-import api.dto.response.UserDto;
-import api.endpoints.UserEndpoints;
-import api.builders.UserBuilders;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.specification.RequestSpecification;
 
 import java.util.List;
 
 import static api.config.PropertyService.getPropertyFromApiFile;
-import static api.config.ResponseService.ok;
 import static io.restassured.filter.log.LogDetail.HEADERS;
 import static io.restassured.filter.log.LogDetail.METHOD;
 import static io.restassured.filter.log.LogDetail.PARAMS;
@@ -34,7 +29,7 @@ public class RequestService {
                 .addHeader(CONTENT, APPLICATION_JSON)
                 .build();
     }
-
+/*
     public static RequestSpecification requestWithToken() {
         return new RequestSpecBuilder()
                 .addFilters(List.of(new RequestLoggingFilter(METHOD),
@@ -51,5 +46,5 @@ public class RequestService {
         return new Requests().post(new UserBuilders().userDefaultBuilder(),
                 UserEndpoints.GENERATE_TOKEN.getEndpoints()).then().spec(ok()).extract().body().as(UserDto.class).getToken();
     }
-
+*/
 }
