@@ -2,12 +2,9 @@ package api.test;
 
 import api.step.UserSteps;
 import io.restassured.RestAssured;
-import io.restassured.config.RestAssuredConfig;
 import org.assertj.core.api.Assertions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.bouncycastle.asn1.x500.style.RFC4519Style.st;
 
 
 public class GenerateUserTest {
@@ -43,6 +40,4 @@ public class GenerateUserTest {
         Assert.assertEquals(statusCode, 404);
 
     }
-
-
 }
