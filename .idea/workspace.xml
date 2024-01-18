@@ -5,43 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_btf_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_equivalence_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_core_1_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_validator_2_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_msg_simple_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_uri_template_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_mailapi_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_schema_validator_4_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/exceptions/BookNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/AddBookJsonSchema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetUserJsonSchema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_test_filter_2_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_24_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/builders/BookBuilders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/Requests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/config/ResponseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/BookEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/BookSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/step/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/GenerateTokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/builders/BookBuilders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/builders/BookBuilders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/config/Requests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/Requests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/config/ResponseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/endpoints/BookEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/endpoints/BookEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/step/BookSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/BookSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/step/UserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/selenide/po/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/po/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/selenide/po/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/selenide/po/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/selenide/WikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/selenide/WikiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/selenide/po/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/selenide/po/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/selenide/po/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/selenide/po/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ui.selenide.WikiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ui.selenide.WikiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/test/GenerateTokenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/selenide/WikiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/selenide/WikiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,22 +80,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/AutoTest/src/main/java/selenide/po&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Project/AutoTest/src/main/java/selenide/po",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\AutoTest\src\main\java\selenide\po" />
@@ -104,7 +110,27 @@
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GenerateTokenTest.shouldBeAddedBook">
+  <component name="RunManager" selected="TestNG.WikiTest.shouldBeOpenedArticle (1)">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <module name="AutoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.ThreadClassTest" />
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateTokenTest.deleteBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
@@ -116,24 +142,6 @@
       <option name="PACKAGE_NAME" value="api.test" />
       <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
       <option name="METHOD_NAME" value="deleteBook" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateTokenTest.generateToken" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
-      <option name="METHOD_NAME" value="generateToken" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,34 +167,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateTokenTest.shouldBeAddedBooks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WikiTest.shouldBeOpenedArticle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.*" />
+          <option name="PATTERN" value="ui.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.GenerateTokenTest" />
-      <option name="METHOD_NAME" value="shouldBeAddedBooks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WikiTest.shouldBeOpenedArticle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenide" />
-      <option name="MAIN_CLASS_NAME" value="selenide.WikiTest" />
+      <option name="PACKAGE_NAME" value="ui.selenide" />
+      <option name="MAIN_CLASS_NAME" value="ui.selenide.WikiTest" />
       <option name="METHOD_NAME" value="shouldBeOpenedArticle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -197,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WikiTest.shouldBeOpenedArticle (1)" />
+        <item itemvalue="Application.ThreadClassTest" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="TestNG.GenerateTokenTest.shouldBeAddedBook" />
         <item itemvalue="TestNG.GenerateTokenTest.deleteBook" />
-        <item itemvalue="TestNG.GenerateTokenTest.shouldBeAddedBooks" />
-        <item itemvalue="TestNG.GenerateTokenTest.generateToken" />
-        <item itemvalue="TestNG.WikiTest.shouldBeOpenedArticle" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +227,10 @@
       <workItem from="1705036983869" duration="21000" />
       <workItem from="1705043379632" duration="1919000" />
       <workItem from="1705254454406" duration="611000" />
-      <workItem from="1705336523681" duration="7059000" />
+      <workItem from="1705336523681" duration="7962000" />
+      <workItem from="1705510647879" duration="12000" />
+      <workItem from="1705594475529" duration="4405000" />
+      <workItem from="1705601703506" duration="3008000" />
     </task>
     <servers />
   </component>

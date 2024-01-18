@@ -112,5 +112,9 @@
     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.21.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:2.8" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.15.1" level="project" />
+    <orderEntry type="library" name="Maven: io.qameta.allure:allure-testng:2.24.0" level="project" />
+    <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.24.0" level="project" />
+    <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.24.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.24.0" level="project" />
   </component>
 </module>

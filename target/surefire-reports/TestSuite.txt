@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.643 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.575 s <<< FAILURE! - in TestSuite
+ui.selenide.WikiTest.shouldBeOpenedArticle  Time elapsed: 5.165 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}
+Expected: visible
+Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1705604226403.0.png
+Page source: file:/D:/Project/AutoTest/build/reports/tests/1705604226403.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
+	at ui.selenide.WikiTest.shouldBeOpenedArticle(WikiTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a3db0853f16d90cbd886ebc38962222, findElement {using=xpath, value=//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Beliar\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57344/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a3db0853f16d90cbd886ebc38962222
+	at ui.selenide.WikiTest.shouldBeOpenedArticle(WikiTest.java:27)
+
