@@ -23,9 +23,17 @@
         <allure.version>2.24.0</allure.version>
         <aspectj.version>1.9.20.1</aspectj.version>
         <postgres.version>42.7.1</postgres.version>
+        <aeonbits.version>1.0.12</aeonbits.version>
+        <usernameDB>usernameDB</usernameDB>
+        <passwordDB>passwordDB</passwordDB>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>${aeonbits.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>

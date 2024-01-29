@@ -12,6 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.aeonbits.owner:owner:1.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.41.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.30" level="project" />
@@ -117,5 +118,8 @@
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.24.0" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.24.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.24.0" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="231c9d3b-3998-4a55-bfd8-d63341907646" />
   </component>
 </module>

@@ -5,7 +5,7 @@
 
     <test name="Package1">
         <classes>
-            <class name="ui.selenide.WikiTest"/>
+            <class name="db.DBTest"/>
         </classes>
     </test>
 
