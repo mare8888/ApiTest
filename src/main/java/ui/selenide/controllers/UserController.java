@@ -8,6 +8,6 @@ public class UserController {
     private UserController() {}
 
     public static User getUserCredentials() {
-        return new User(String.valueOf(Utils.getProperty("login")), String.valueOf(Utils.getProperty("password")));
+        return new User(String.valueOf(Utils.getProperty("login")), String.valueOf(Utils.getProperty("passwordd")));
     }
 }
