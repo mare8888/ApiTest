@@ -12,11 +12,11 @@ public class UserTable extends Crud {
     }
 
     public void updateAlice() {
-        update("UPDATE USERS SET age=22 WHERE name='Alice'");
+        update("UPDATE USERS SET name='Tomy' WHERE name='Alice'");
     }
 
-    public void deleteAlice() {
-        delete("DELETE FROM USERS WHERE name='Alice'");
+    public void deleteTomy() {
+        delete("DELETE FROM USERS WHERE name='Tomy'");
     }
 
     @SneakyThrows
