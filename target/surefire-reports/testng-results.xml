@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-30T23:53:03 EET" name="Auto" finished-at="2024-01-30T23:53:16 EET" duration-ms="13963">
+  <suite started-at="2024-02-01T20:06:38 EET" name="Auto" finished-at="2024-02-01T20:06:49 EET" duration-ms="11290">
     <groups>
     </groups>
-    <test started-at="2024-01-30T23:53:03 EET" name="Package1" finished-at="2024-01-30T23:53:16 EET" duration-ms="13963">
+    <test started-at="2024-02-01T20:06:38 EET" name="Package1" finished-at="2024-02-01T20:06:49 EET" duration-ms="11290">
       <class name="ui.selenide.WikiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@53dfacba]" started-at="2024-01-30T23:53:03 EET" name="setUp" finished-at="2024-01-30T23:53:08 EET" duration-ms="5376" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:38 EET" name="setUp" finished-at="2024-02-01T20:06:41 EET" duration-ms="3763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@53dfacba]" started-at="2024-01-30T23:53:03 EET" name="setUp" finished-at="2024-01-30T23:53:08 EET" duration-ms="5392" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:38 EET" name="setUp" finished-at="2024-02-01T20:06:41 EET" duration-ms="3745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="shouldBeAuth()[pri:0, instance:ui.selenide.WikiTest@53dfacba]" started-at="2024-01-30T23:53:08 EET" name="shouldBeAuth" finished-at="2024-01-30T23:53:16 EET" duration-ms="8486" status="PASS">
+        <test-method signature="shouldBeAuth()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:42 EET" name="shouldBeAuth" finished-at="2024-02-01T20:06:49 EET" duration-ms="7396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAuth -->
-        <test-method signature="shouldBeOpenedArticle()[pri:0, instance:ui.selenide.WikiTest@53dfacba]" started-at="2024-01-30T23:53:08 EET" name="shouldBeOpenedArticle" finished-at="2024-01-30T23:53:13 EET" duration-ms="5064" status="FAIL">
+        <test-method signature="shouldBeOpenedArticle()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:42 EET" name="shouldBeOpenedArticle" finished-at="2024-02-01T20:06:47 EET" duration-ms="5186" status="FAIL">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {By.xpath: //div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}
 Expected: visible
-Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706651593351.0.png
-Page source: file:/D:/Project/AutoTest/build/reports/tests/1706651593351.0.html
+Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.png
+Page source: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}]]>
             </message>
             <full-stacktrace>
               <![CDATA[Element not found {By.xpath: //div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}
 Expected: visible
-Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706651593351.0.png
-Page source: file:/D:/Project/AutoTest/build/reports/tests/1706651593351.0.html
+Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.png
+Page source: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -65,14 +65,14 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
-  (Session info: chrome=121.0.6167.86)
+  (Session info: chrome=121.0.6167.139)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1bd2551ad563a2bf07001a7969595ad7, findElement {using=xpath, value=//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Beliar\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bd2551ad563a2bf07001a7969595ad7
+Command: [46439ced758b53428471bd459793e30a, findElement {using=xpath, value=//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Beliar\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53055}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53055/devtoo..., se:cdpVersion: 121.0.6167.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46439ced758b53428471bd459793e30a
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
