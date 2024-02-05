@@ -1,60 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T20:06:38 EET" name="Auto" finished-at="2024-02-01T20:06:49 EET" duration-ms="11290">
+  <suite started-at="2024-02-05T20:43:04 EET" name="Auto" finished-at="2024-02-05T20:43:04 EET" duration-ms="255">
     <groups>
     </groups>
-    <test started-at="2024-02-01T20:06:38 EET" name="Package1" finished-at="2024-02-01T20:06:49 EET" duration-ms="11290">
+    <test started-at="2024-02-05T20:43:04 EET" name="Package1" finished-at="2024-02-05T20:43:04 EET" duration-ms="255">
       <class name="ui.selenide.WikiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:38 EET" name="setUp" finished-at="2024-02-01T20:06:41 EET" duration-ms="3763" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:38 EET" name="setUp" finished-at="2024-02-01T20:06:41 EET" duration-ms="3745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="shouldBeAuth()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:42 EET" name="shouldBeAuth" finished-at="2024-02-01T20:06:49 EET" duration-ms="7396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAuth -->
-        <test-method signature="shouldBeOpenedArticle()[pri:0, instance:ui.selenide.WikiTest@72209d93]" started-at="2024-02-01T20:06:42 EET" name="shouldBeOpenedArticle" finished-at="2024-02-01T20:06:47 EET" duration-ms="5186" status="FAIL">
-          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@458544e0]" started-at="2024-02-05T20:43:04 EET" name="setUp" finished-at="2024-02-05T20:43:04 EET" duration-ms="88" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[Element not found {By.xpath: //div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}
-Expected: visible
-Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.png
-Page source: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}]]>
+              <![CDATA[org/openqa/selenium/net/HostIdentifier]]>
             </message>
             <full-stacktrace>
-              <![CDATA[Element not found {By.xpath: //div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}
-Expected: visible
-Screenshot: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.png
-Page source: file:/D:/Project/AutoTest/build/reports/tests/1706810807043.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
-at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
-at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)
-at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
-at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
-at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
-at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-at com.codeborne.selenide.commands.Commands.execute(Commands.java:161)
-at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
-at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-at jdk.proxy2/jdk.proxy2.$Proxy17.shouldBe(Unknown Source)
-at ui.selenide.po.SearchPage.clickOnUbisoftArticle(SearchPage.java:37)
-at ui.selenide.WikiTest.shouldBeOpenedArticle(WikiTest.java:27)
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:50)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
+at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
+at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:213)
+at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:71)
+at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:92)
+at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+at ui.selenide.BaseTest.setUp(BaseTest.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
@@ -64,39 +52,179 @@ at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']"}
-  (Session info: chrome=121.0.6167.139)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [46439ced758b53428471bd459793e30a, findElement {using=xpath, value=//div[@class='mw-search-result-heading']/a[@data-prefixedtext='Ubisoft']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Beliar\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53055}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53055/devtoo..., se:cdpVersion: 121.0.6167.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 46439ced758b53428471bd459793e30a
-at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)
-at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
-... 24 more
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+... 38 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.selenide.WikiTest@458544e0]" started-at="2024-02-05T20:43:04 EET" name="setUp" finished-at="2024-02-05T20:43:04 EET" duration-ms="88" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/net/HostIdentifier]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:50)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
+at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
+at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:213)
+at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:71)
+at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:92)
+at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+at ui.selenide.BaseTest.setUp(BaseTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeAuth()[pri:0, instance:ui.selenide.WikiTest@458544e0]" started-at="2024-02-05T20:43:04 EET" name="shouldBeAuth" finished-at="2024-02-05T20:43:04 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/net/HostIdentifier]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:50)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
+at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
+at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:213)
+at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:71)
+at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:92)
+at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+at ui.selenide.BaseTest.setUp(BaseTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAuth -->
+        <test-method signature="shouldBeOpenedArticle()[pri:0, instance:ui.selenide.WikiTest@458544e0]" started-at="2024-02-05T20:43:04 EET" name="shouldBeOpenedArticle" finished-at="2024-02-05T20:43:04 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/net/HostIdentifier]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:50)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
+at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
+at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
+at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
+at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
+at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:213)
+at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:71)
+at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
+at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
+at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:92)
+at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+at ui.selenide.BaseTest.setUp(BaseTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeOpenedArticle -->
