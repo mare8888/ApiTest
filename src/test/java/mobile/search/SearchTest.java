@@ -11,6 +11,7 @@ public class SearchTest extends BaseTest {
 
     @Test
     void shouldBeArticleNameVisible() {
+
         new SkipPage().clickSkip();
         new SearchService().searchTest("Appium");
         new ArticleService().getArticle();
