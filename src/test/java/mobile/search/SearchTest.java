@@ -16,8 +16,10 @@ public class SearchTest extends BaseTest {
 
         new SearchService().searchTest("Appium");
 
-        var article = new ArticleService().getArticleName();
+        new ArticleService().getArticle();
 
-        assertThat(article).as("The article has wrong name").isEqualTo("Appium");
+        var article3 = new ArticleService().getArticleNameSpain();
+
+        assertThat(article3).as("Header").isEqualTo("Historia");
     }
 }
