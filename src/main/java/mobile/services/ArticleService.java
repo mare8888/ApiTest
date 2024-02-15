@@ -11,4 +11,9 @@ public class ArticleService {
                 .clickFirstArticle()
                 .getArticleName();
     }
+
+    public void clickArticle() {
+        articlePage
+                .clickFirstArticle();
+    }
 }

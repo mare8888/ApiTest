@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/config/base/BaseMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/config/base/Waiters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/config/driver/DriverInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/config/props/BaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/ArticlePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/SkipPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/services/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/services/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/search/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/ListSavedArticlePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/po/SavePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/services/ListSavedArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/BasicTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/mobile.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/mobile.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/config/base/BaseMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/config/base/BaseMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/services/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/search/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/search/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,7 @@
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTest.shouldBeArticleNameVisible">
+  <component name="RunManager" selected="TestNG.SearchTest.sdfs">
     <configuration name="BasicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mobile.test.BasicTest" />
       <module name="AutoTest" />
@@ -109,30 +102,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="db.DBTest" />
+    <configuration name="SearchTest.sdfs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.config.*" />
+          <option name="PATTERN" value="mobile.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DBTest.shouldBeAddedAndDeleteAlice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="db.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="db" />
-      <option name="MAIN_CLASS_NAME" value="db.DBTest" />
-      <option name="METHOD_NAME" value="shouldBeAddedAndDeleteAlice" />
+      <option name="PACKAGE_NAME" value="mobile.search" />
+      <option name="MAIN_CLASS_NAME" value="mobile.search.SearchTest" />
+      <option name="METHOD_NAME" value="sdfs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,6 +131,24 @@
       <option name="PACKAGE_NAME" value="mobile.search" />
       <option name="MAIN_CLASS_NAME" value="mobile.search.SearchTest" />
       <option name="METHOD_NAME" value="shouldBeArticleNameVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.shouldBeSwipeUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.search" />
+      <option name="MAIN_CLASS_NAME" value="mobile.search.SearchTest" />
+      <option name="METHOD_NAME" value="shouldBeSwipeUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTest.sdfs" />
+        <item itemvalue="TestNG.SearchTest.shouldBeSwipeUp" />
         <item itemvalue="TestNG.SearchTest.shouldBeArticleNameVisible" />
         <item itemvalue="Application.BasicTest" />
         <item itemvalue="TestNG.WikiTest.shouldBeAuth" />
-        <item itemvalue="TestNG.DBTest.shouldBeAddedAndDeleteAlice" />
-        <item itemvalue="Application.DBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +238,9 @@
       <workItem from="1707157405674" duration="1029000" />
       <workItem from="1707158445999" duration="2148000" />
       <workItem from="1707240085621" duration="30000" />
-      <workItem from="1707758191431" duration="6015000" />
+      <workItem from="1707758191431" duration="6807000" />
+      <workItem from="1707846018950" duration="5000" />
+      <workItem from="1708016479863" duration="9093000" />
     </task>
     <servers />
   </component>
