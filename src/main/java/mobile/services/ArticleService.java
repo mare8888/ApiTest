@@ -16,4 +16,13 @@ public class ArticleService {
         articlePage
                 .clickFirstArticle();
     }
+
+    public void clickMore() {
+        articlePage
+                .clickMore();
+    }
+
+    public void clickList(){
+        articlePage.clickList();
+    }
 }

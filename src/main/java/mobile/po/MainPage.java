@@ -7,6 +7,8 @@ public class MainPage extends BaseMethods {
 
     private final By topRead = By.xpath("//android.widget.TextView[@resource-id=\"org.wikipedia:id/view_card_header_title\" and @text=\"In the news\"]");
 
+    private final By topMore = By.xpath("//android.view.ViewGroup[@resource-id=\"org.wikipedia:id/view_list_card_footer\"]");
+
 
     public void swipeUpOnPage(int time) {
         swipeUp(time);
@@ -18,5 +20,9 @@ public class MainPage extends BaseMethods {
 
     public void swipeToElementTo() {
         swipeToElement(topRead, 10000);
+    }
+
+    public void swipeToMore() {
+        swipeToElement(topMore, 700);
     }
 }

@@ -1,10 +1,7 @@
 package mobile.search;
 
 import mobile.BaseTest;
-import mobile.po.ListSavedArticlePage;
-import mobile.po.MainPage;
-import mobile.po.SavePage;
-import mobile.po.SkipPage;
+import mobile.po.*;
 import mobile.services.ArticleService;
 import mobile.services.ListSavedArticleService;
 import mobile.services.SearchService;
@@ -20,9 +17,9 @@ public class SearchTest extends BaseTest {
 
         new SearchService().searchTest("Appium");
 
-        var article = new ArticleService().getArticleName();
+       var article = new ArticleService().getArticleName();
 
-        assertThat(article).as("The article has wrong name").isEqualTo("Appium");
+       assertThat(article).as("The article has wrong name").isEqualTo("Appium");
     }
 
     @Test
@@ -31,7 +28,7 @@ public class SearchTest extends BaseTest {
 
         new SearchService().searchTest("Appium");
 
-        new ArticleService().clickArticle();
+       new ArticleService().clickArticle();
 
         new SavePage().clickSaveButton();
 
@@ -47,5 +44,22 @@ public class SearchTest extends BaseTest {
     void sdfs() {
         new SkipPage().clickSkip();
         new MainPage().swipeToElementTo();
+    }
+
+    @Test
+    void sdfsmobile() {
+        new SkipPage().clickSkip();
+        new MainPage().swipeToMore();
+        new ArticleService().clickMore();
+
+        new ArticleService().clickList();
+
+        new SavePage().clickSaveButton();
+
+        new ListSavedArticleService()
+                .addToListArticle("Film");
+
+        new ListSavedArticlePage()
+                .swipeElementRight(550);
     }
 }

@@ -10,8 +10,5 @@
         <module name="AutoTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="AutoTest" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
